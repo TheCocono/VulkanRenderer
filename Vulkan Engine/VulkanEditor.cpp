@@ -1,4 +1,4 @@
-#include "vulkan_window.h"
+#include "VulkanEditor.h"
 
 namespace VulkanEditor {
 

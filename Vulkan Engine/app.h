@@ -1,6 +1,7 @@
 #pragma once
 
-#include "vulkan_window.h"
+#include "VulkanEditor.h"
+#include "VulkanEditorPipeline.h"
 
 namespace VulkanEditor {
 
@@ -14,5 +15,6 @@ namespace VulkanEditor {
 
 	private:
 		VulkanWindow vulkanWindow{ WIDTH, HEIGHT, "Hello world!"};
+		VulkanEditorPipeline vulkanEditorPipeline{ "simple_shader.vert.spv", "simple_shader.frag.spv" };
 	};
 }

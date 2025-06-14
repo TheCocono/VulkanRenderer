@@ -18,15 +18,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="vulkan_window.h">
+    <ClInclude Include="VulkanEditor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="app.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="VulkanEditorPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="vulkan_window.cpp">
+    <ClCompile Include="VulkanEditor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -35,9 +38,18 @@
     <ClCompile Include="app.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="VulkanEditorPipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="simple_shader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="simple_shader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="compile.bat">
       <Filter>Shaders</Filter>
     </None>
   </ItemGroup>
